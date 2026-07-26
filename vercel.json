@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/products", "dest": "/api/products.py" },
+    { "src": "/api/orders",   "dest": "/api/orders.py"   },
+    { "src": "/(.*)",         "dest": "/public/$1"        }
+  ]
+}
